@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "HTTP-Status-Codes-for-Objective-C"
   s.version      = "0.0.1"
-  s.summary      = ""
+  s.summary      = "http status codes"
 
   s.description  = <<-DESC
                    A longer description of HTTP-Status-Codes-for-Objective-C in Markdown format.
@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = "MIT (example)"
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/stevernguyen/HTTP-Status-Codes-for-Objective-C.git", :commit => "1cedef5d4e901e8767695120583ecfa01df55625" }
+  s.source       = { :git => "https://github.com/stevernguyen/HTTP-Status-Codes-for-Objective-C.git", :commit => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes/*.{h,m}"
+  s.source_files  = "Classes/**/*.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 
